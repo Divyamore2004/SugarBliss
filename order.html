@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Order Online - SugarBliss</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+<link rel="stylesheet" href="./assets/CSS/order.css">
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logoo.png" >
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="order.html" class="active">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="order-hero">
+    <div class="hero-content animate-on-scroll">
+      <h1>Order Online</h1>
+      <p>Enjoy our Cakes from the comfort of your home</p>
+    </div>
+  </section>
+
+  <!-- Order Process Steps -->
+  <section class="order-steps">
+    <div class="steps-container animate-on-scroll">
+      <div class="step active">
+        <div class="step-icon">
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+        <div class="step-text">Your Order</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-truck"></i>
+        </div>
+        <div class="step-text">Delivery Info</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-credit-card"></i>
+        </div>
+        <div class="step-text">Payment</div>
+      </div>
+      <div class="step">
+        <div class="step-icon">
+          <i class="fas fa-check-circle"></i>
+        </div>
+        <div class="step-text">Confirmation</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Order Content -->
+  <section class="order-content">
+    <div class="order-cart animate-left">
+      <h2>Your Order</h2>
+      <div class="cart-items">
+        <!-- Cart Item 1 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/chocolate cake.jpg" alt="Chocolate Cake">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Chocolate Cake</div>
+            <div class="cart-item-price">500.rs</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">1</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+
+        <!-- Cart Item 2 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/raspberrymuffin.jpg" alt="Raspberry Muffin">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Raspberry Muffin</div>
+            <div class="cart-item-price">100.rs</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">1</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+
+        <!-- Cart Item 3 -->
+        <div class="cart-item">
+          <div class="cart-item-img">
+            <img src="./images/strawberry.jpg" alt="Strawberry pastry">
+          </div>
+          <div class="cart-item-details">
+            <div class="cart-item-title">Strawberry pastry</div>
+            <div class="cart-item-price">150.rs</div>
+          </div>
+          <div class="cart-item-controls">
+            <button class="quantity-btn">-</button>
+            <span class="quantity-display">1</span>
+            <button class="quantity-btn">+</button>
+            <button class="remove-btn"><i class="fas fa-trash"></i></button>
+          </div>
+        </div>
+
+      <div class="cart-summary">
+        <div class="summary-row">
+          <span>Subtotal</span>
+          <span>750.rs</span>
+        </div>
+        <div class="summary-row">
+          <span>Delivery Fee</span>
+          <span>50.rs</span>
+        </div>
+        <div class="summary-row">
+          <span>Tax</span>
+          <span>18%</span>
+        </div>
+        <div class="summary-row total">
+          <span>Total</span>
+          <span>944.rs</span>
+        </div>
+      </div>
+
+      <div class="order-actions">
+        <button class="continue-shopping">Continue Shopping</button>
+        <button class="checkout-btn">Proceed to Checkout</button>
+      </div>
+    </div>
+
+    <div class="order-form animate-right">
+      <h2>Order Details</h2>
+      
+      <div class="form-section">
+        <h3><i class="fas fa-user"></i> Personal Information</h3>
+        <div class="form-row">
+          <div class="form-group">
+            <label for="first-name">First Name</label>
+            <input type="text" id="first-name" class="form-control" placeholder="Your First Name" required>
+          </div>
+          <div class="form-group">
+            <label for="last-name">Last Name</label>
+            <input type="text" id="last-name" class="form-control" placeholder="Your Last Name" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="email">Email Address</label>
+          <input type="email" id="email" class="form-control" placeholder="Your Email Address" required>
+        </div>
+        
+        <div class="form-group">
+          <label for="phone">Phone Number</label>
+          <input type="tel" id="phone" class="form-control" placeholder="Your Phone Number" pattern="[0-9]{10}" maxlength="10" required>
+        </div>
+      </div>
+      
+      <div class="form-section">
+        <h3><i class="fas fa-map-marker-alt"></i> Delivery Information</h3>
+        
+        <div class="form-group">
+          <label>Delivery Option</label>
+          <div class="delivery-options">
+            <div class="delivery-option selected">
+              <i class="fas fa-truck"></i>
+              <span>Delivery</span>
+              <small>30-45 min</small>
+            </div>
+            <div class="delivery-option">
+              <i class="fas fa-store"></i>
+              <span>Pickup</span>
+              <small>15-20 min</small>
+            </div>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="address">Delivery Address</label>
+          <input type="text" id="address" class="form-control" placeholder="Your Full Address" required>
+        </div>
+        
+        <div class="form-row">
+          <div class="form-group">
+            <label for="city">City</label>
+            <input type="text" id="city" class="form-control" placeholder="City" required>
+          </div>
+          <div class="form-group">
+            <label for="zip">ZIP Code</label>
+            <input type="text" id="zip" class="form-control" placeholder="ZIP Code" required>
+          </div>
+        </div>
+        
+        <div class="form-group">
+          <label for="instructions">Delivery Instructions (Optional)</label>
+          <textarea id="instructions" class="form-control" rows="3" placeholder="Any special delivery instructions?"></textarea>
+        </div>
+      </div>
+
+      <div class="order-actions">
+        <button class="continue-shopping">Back to Menu</button>
+        <button class="checkout-btn" id="place-order-btn">Place Your Order</button>
+      </div>
+    </div>
+  </section>   
+
+  <!-- Order Confirmation Modal -->
+  <div class="modal" id="confirmation-modal">
+    <div class="modal-content animate-scale">
+      <div class="modal-icon">
+        <i class="fas fa-check-circle"></i>
+      </div>
+      <h2>Order Confirmed!</h2>
+      <p>Thank you for your order! Your food is being prepared and will be delivered to you within 30-45 minutes.</p>
+      <p><strong>Order ID: #ANT2024001</strong></p>
+      <p>You will receive a confirmation email shortly.</p>
+      <button class="modal-btn" id="modal-ok-btn">OK</button>
+    </div>
+  </div>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logoo.png" alt="SugarBliss">
+        </div>
+        <p>SugarBliss has been serving authentic handmade cakes since 2005. We take pride in our family recipes and commitment to quality ingredients, bringing the taste of joy and happiness to your table.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="./index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="./about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="./menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="./reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="./order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="./contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Shop No. 12, Rose Garden Plaza,<br>MG Road, Chinchwad, Pune, Maharashtra 411033</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+91 888245390</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@sugarbliss-stores.com</span>
+          </li>
+        </ul>
+      </div>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+<script src="./assets/JS/order.js"></script>
+
+
+</body>
+</html>

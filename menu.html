@@ -1,0 +1,427 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Our Menu - SugarBliss</title>
+
+  <!-- Font Awesome CDN for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+<link rel="stylesheet" href="./assets/CSS/menu.css">
+
+</head>
+
+<body>
+  <header>
+    <div class="logo">
+      <img src="images/logoo.png" >
+    </div>
+
+    <button class="menu-toggle">
+      <i class="fas fa-bars"></i>
+    </button>
+
+    <nav>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="menu.html" class="active">Menu</a></li>
+        <li><a href="reservation.html">Reservation</a></li>
+        <li><a href="order.html">Order</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </nav>
+
+    <div class="account">
+      <i class="fa-regular fa-user"></i>
+      <span>My Account</span>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="menu-hero">
+    <div class="hero-content animate-on-scroll">
+      <h1>Our Menu</h1>
+      <p>Explore our delicious range of cakes, Pastrys, cupcakes, and wedding cakes, birthday cakes freshly made with love. Perfect treats for every craving and occasion!</p>
+    </div>
+  </section>
+
+  <!--"Cakes Section -->
+  <section class="menu-section" id="Cakes">
+    <div class="section-title animate-on-scroll">
+      <h2>Cakes</h2>
+      <p>Our cakes are freshly baked with premium ingredients, offering rich flavors and beautiful designs. Perfect for celebrations or sweet moments, every bite is pure bliss.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <div class="menu-item" data-category="Cakes">
+        <div class="menu-item-badge">Classic Cakes</div>
+        <div class="menu-item-img">
+          <img src="./images/chocolate cake.jpg" alt="Chocolate Cake">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Chocolate Cake</h3>
+            <span class="menu-item-price">500.rs</span>
+          </div>
+          <p class="menu-item-desc">A rich and moist chocolate cake made with premium cocoa, layered with smooth chocolate ganache, and finished with a velvety frosting—perfect for every chocolate lover.</p>
+      
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-item" data-category="Cakes">
+        <div class="menu-item-img">
+          <img src="./images/vanilla.jpg" >
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Vanilla cake</h3>
+            <span class="menu-item-price">450.rs</span>
+          </div>
+          <p class="menu-item-desc">A soft and fluffy vanilla cake made with pure vanilla essence, layered with creamy frosting, and finished with a light, sweet aroma—simple, elegant, and delicious.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <div class="menu-item" data-category="Cakes">
+        <div class="menu-item-badge">New</div>
+        <div class="menu-item-img">
+          <img src="./images/redvelvel cake.jpg">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Redvelvet cake</h3>
+            <span class="menu-item-price">700.rs</span>
+          </div>
+          <p class="menu-item-desc">A soft and fluffy redvelvet cake made with pure redvelvet essence, layered with creamy frosting, and finished with a light, sweet aroma—simple, elegant, and delicious</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Muffins Section -->
+  <section class="menu-section" id="Muffins">
+    <div class="section-title animate-on-scroll">
+      <h2>Muffins</h2>
+      <p>Soft, fluffy, and freshly baked, full of delicious flavors in every bite.</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Muffins 1 -->
+      <div class="menu-item" data-category="Muffins">
+        <div class="menu-item-badge">Popular</div>
+        <div class="menu-item-img">
+          <img src="./images/raspberrymuffin.jpg" alt="Raspberry Muffin">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Blueberry Muffin</h3>
+            <span class="menu-item-price">100.rs</span>
+          </div>
+          <p class="menu-item-desc">Moist, fluffy muffin loaded with juicy raspberries for a sweet, fruity treat.</p>
+          
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Muffins 2 -->
+      <div class="menu-item" data-category="Muffins">
+        <div class="menu-item-img">
+          <img src="./images/banana muffin.jpg" alt="Banana Muffin">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Banana Muffin</h3>
+            <span class="menu-item-price">100.rs</span>
+          </div>
+          <p class="menu-item-desc">Moist, fluffy muffin loaded with sweet banana for a sweet, fruity treat.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Muffins 3 -->
+      <div class="menu-item" data-category="Muffins">
+        <div class="menu-item-img">
+          <img src="./images/chocolate muffin.jpg" alt="Chocolate Muffin">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Chocolate Muffin</h3>
+            <span class="menu-item-price">80.rs</span>
+          </div>
+          <p class="menu-item-desc">Moist, fluffy muffin packed with melted chocolate for a decadent bite.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Pastrys Section -->
+  <section class="menu-section" id="Pastrys">
+    <div class="section-title animate-on-scroll">
+      <h2>Pastrys</h2>
+      <p>Light, Flaky dessert filled with cream, fruit or chocolate perfect for a sweet treat</p>
+    </div>
+
+    <div class="menu-items animate-stagger">
+      <!-- Pastrys 1 -->
+      <div class="menu-item" data-category="Pastry">
+        <div class="menu-item-badge">Best Seller</div>
+        <div class="menu-item-img">
+          <img src="./images/pine pastry.jpg" alt="Pineapple Pastry">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Pineapple Pastrys </h3>
+            <span class="menu-item-price">80.rs</span>
+          </div>
+          <p class="menu-item-desc">Moist flavourfull pineapple pastry made with fresh pineapples and love.</p>
+          
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <span>(5.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastrys 2 -->
+      <div class="menu-item" data-category="Pastry">
+        <div class="menu-item-img">
+          <img src="./images/strawberry.jpg" alt="Strawberry Pastry">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Strawberry Pastry</h3>
+            <span class="menu-item-price">150.rs</span>
+          </div>
+          <p class="menu-item-desc">Moist flavourfull strawberry pastry made with fresh strawberry and love.</p>
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="far fa-star"></i>
+              <span>(4.0)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Pastrys 3 -->
+      <div class="menu-item" data-category="Pastry">
+        <div class="menu-item-img">
+          <img src="./images/fruit.jpg" alt="Mix Fruit Pastry">
+        </div>
+        <div class="menu-item-content">
+          <div class="menu-item-header">
+            <h3 class="menu-item-title">Mix Fruit Pastry</h3>
+            <span class="menu-item-price">200.rs</span>
+          </div>
+          <p class="menu-item-desc">Moist flavourfull mix fruit pastry made with fresh fruits, dry fruits and love.</p>
+          
+          <div class="menu-item-footer">
+            <div class="menu-item-rating">
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star"></i>
+              <i class="fas fa-star-half-alt"></i>
+              <span>(4.5)</span>
+            </div>
+            <button class="add-to-cart">
+              <i class="fas fa-shopping-cart"></i> Add to Cart
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CTA Section -->
+  <section class="cta-section">
+    <div class="cta-content animate-on-scroll">
+      <h2>Ready to Order?</h2>
+      <p>Experience the authentic taste of Cakes with our delicious menu. Order online for pickup or delivery, or make a reservation for a memorable dining experience.</p>
+      <div class="cta-buttons">
+        <button class="cta-btn primary">Order Online</button>
+        <button class="cta-btn secondary">Make a Reservation</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer Section -->
+  <footer>
+    <div class="footer-bg"></div>
+    
+    <div class="footer-content animate-stagger">
+      <div class="footer-column">
+        <div class="footer-logo">
+          <img src="images/logoo.png" alt="SugarBliss">
+        </div>
+        <p>Sugar Bliss – Where Every Bite is Happiness! Indulge in our freshly baked cakes, Pastrys, muffins, and macarons made with love 
+          and premium ingredients. Visit us at 123 Sweet Lane, Pune, India, or order online to enjoy a little sweetness every day!
+          Follow us on social media for updates, offers, and more delicious creations.</p>
+        <div class="social-links">
+          <a href="#" class="social-link"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-instagram"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="social-link"><i class="fab fa-tripadvisor"></i></a>
+        </div>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Quick Links</h4>
+        <ul class="footer-links">
+          <li><a href="index.html"><i class="fas fa-chevron-right"></i> Home</a></li>
+          <li><a href="about.html"><i class="fas fa-chevron-right"></i> About Us</a></li>
+          <li><a href="menu.html"><i class="fas fa-chevron-right"></i> Our Menu</a></li>
+          <li><a href="reservation.html"><i class="fas fa-chevron-right"></i> Reservations</a></li>
+          <li><a href="order.html"><i class="fas fa-chevron-right"></i> Order Online</a></li>
+          <li><a href="contact.html"><i class="fas fa-chevron-right"></i> Contact Us</a></li>
+        </ul>
+      </div>
+      
+      <div class="footer-column">
+        <h4>Contact Info</h4>
+        <ul class="contact-info">
+          <li>
+            <i class="fas fa-map-marker-alt"></i>
+            <span>Shop No. 12, Rose Garden Plaza,<br>MG Road, Chinchwad, Pune, Maharashtra 411033</span>
+          </li>
+          <li>
+            <i class="fas fa-phone"></i>
+            <span>+91 888245390</span>
+          </li>
+          <li>
+            <i class="fas fa-envelope"></i>
+            <span>info@sugarbliss-store.com</span>
+          </li>
+        </ul>
+     
+      </div>
+      
+      <div class="footer-column">
+        <h4>Newsletter</h4>
+        <p>Subscribe to our newsletter to receive updates on special offers, new menu items, and events.</p>
+        
+        <div class="newsletter">
+          <form class="newsletter-form">
+            <input type="email" class="newsletter-input" placeholder="Your email address" required>
+            <button type="submit" class="newsletter-btn"><i class="fas fa-paper-plane"></i></button>
+          </form>
+        </div>
+        
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <div class="footer-bottom-content">
+        <div>
+          <p>&copy; SugarBliss. All rights reserved.</p>
+        </div>
+        <div>
+          <p>Designed with <i class="fas fa-heart" style="color: #F2360A;"></i> for food lovers</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Back to Top Button -->
+  <div class="back-to-top" id="backToTop">
+    <i class="fas fa-chevron-up"></i>
+  </div>
+
+<script src="./assets/JS/menu.js"></script>
+
+
+</body>
+</html>
