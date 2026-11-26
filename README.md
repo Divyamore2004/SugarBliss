@@ -44,7 +44,7 @@ SugarBliss/
 
 🌐 Live Demo
 
-[Visit Sugar Bliss Website](https://github.com/Divyamore2004/SugarBliss)
+[Visit Sugar Bliss Website]((https://divyamore2004.github.io/SugarBliss/))
 
 👩‍💻 Developed By
 **Divya More**
